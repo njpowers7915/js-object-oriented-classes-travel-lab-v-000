@@ -23,7 +23,7 @@ class Route {
 
   }
 
-  estimatedTime() {
-    
+  estimatedTime(blocksTravelled, peakHours) {
+
   }
 }
