@@ -1,7 +1,7 @@
 class Driver {
-  constructor(name, dateString) {
+  constructor(name, startDate) {
     this.name = name
-    this.dateString = dateString
+    this.startDate = new Date(startDate)
   }
 
   startDate() {
