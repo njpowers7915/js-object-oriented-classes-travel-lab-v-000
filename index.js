@@ -1,10 +1,21 @@
 class Driver {
-  constructor(name, startDate) {
+  constructor(name, dateString) {
     this.name = name
-    this.startDate = startDate
+    this.dateString = dateString
+  }
+
+  startDate() {
+
+  }
+
+  yearsExperienceFromBeginningOf() {
+
   }
 }
 
 class Route {
-
+  constructor(beginningLocation, endingLocation) {
+    this.beginningLocation = beginningLocation
+    this.endingLocation = endingLocation
+  }
 }
