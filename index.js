@@ -1,5 +1,8 @@
 class Driver {
-  constructor(name, joined)
+  constructor(name, joined) {
+    this.name = name
+    this.joined = joined
+  }
 }
 
 class Route {
